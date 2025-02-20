@@ -6,7 +6,6 @@ This repository contains a PyTorch implementation of a Conditional Generative Ad
 - Uses a **Generator** and **Discriminator** model with label conditioning.
 - Implements **Adversarial Loss** for effective training.
 - Supports **batch processing** with a custom dataset transformation.
-- Trains using **PyTorch** with GPU acceleration.
 
 ## Hyperparameters
 The model is trained using the following hyperparameters:
@@ -64,10 +63,4 @@ pip install torch torchvision numpy matplotlib
 ## Results
 During training, the model generates images based on class labels. Sample results can be visualized to monitor progress.
 
-## Acknowledgments
-This implementation is inspired by GAN research and PyTorch tutorials on conditional image generation.
-
----
-
-Feel free to modify and experiment with different architectures or datasets!
 
